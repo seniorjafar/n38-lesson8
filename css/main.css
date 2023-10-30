@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --- navbar start --- */
+header {
+  background: #000;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+header nav {
+  background: #0f0f0f;
+}
+.container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.call {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #969696;
+}
+.call-number {
+  display: flex;
+}
+nav {
+  display: flex;
+  max-width: 1920px;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  background: #0f0f0f;
+}
+.brend {
+  padding-left: 30px;
+}
+.navbar li {
+  padding: 31px 20px;
+}
+a {
+  text-decoration: none;
+  color: #969696;
+}
+.navbar :hover {
+  background-color: #1f1f1f;
+  color: #fff;
+  transition: 0.5s;
+}
+.menu {
+  display: none;
+}
+/* --- navbar end --- */
+
+/* --- about start --- */
+.about {
+  background: url(../images/background-brend.jpeg) no-repeat;
+  max-width: 1920px;
+  background-size: cover;
+  background-position: center;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.about-kard img {
+  max-width: 100%;
+  object-position: center;
+}
+@media (max-width: 780px) {
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .menu img {
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30%;
+  }
+}
+
+.about-kard {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  padding: 160px 494px 154px;
+}
+.about-kard-box {
+  display: block;
+  max-width: 320px;
+  max-height: 321px;
+  margin-left: 20%;
+
+  margin-bottom: 80px;
+  padding: 93px 68px;
+  border: 4px solid white;
+  text-align: center;
+}
+.brend-2 {
+  width: 185px;
+}
+.about-kard-box h3 {
+  width: 180px;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+}
+.about-kard-text {
+  display: block;
+  flex-wrap: wrap;
+  color: white;
+  padding: 5px;
+  max-width: 730px;
+  max-height: 200px;
+}
+/* --- about end --- */
+
+/* --- box start --- */
+
+.box-container{
+float: 50%;
+
+
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+max-width: 1920px;
+
+
+
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.texts{
+  display: flex;
+  justify-content: space-around;
+max-width: 514px;
+margin-left: 30px;
+
+}
+.texts h2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+margin-bottom: 5px;
+text-align: center;
+
+}
+.texts p{
+
+   display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  max-width: 200px;
+}
+
+.box-kard-1,
+.box-kard-2 {
+  margin: 0;
+}
+.box-kard-1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 960px;
+  max-height: 730px;
+  background-color: black;
+  padding: 73px 43px;
+
+}
+.naleyka{
+  max-width: 130px;
+  max-height: 0;
+  border: 2px solid  #fff;
+  background-color: #fff;
+}
+.box-kard-2{
+  display: flex;
+flex-wrap: wrap;
+background: url(../images/box-background.jpeg) ;
+
+padding: 484px 70px 100px;
+}
+.box-kard-2 h1{
+  display: flex;
+  flex-wrap: wrap;
+ width: 400px;
+margin-left: 200px;
+margin-right: auto;
+height: 39px;
+flex-shrink: 0;
+color: var(--white, #FFF);
+text-align: center;
+
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.box-kard-2 h4{
+  display: flex;
+  flex-wrap: wrap;
+ width: 200px;
+margin-left: 300px;
+color: var(--white, #FFF);
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+border: 1px solid var(--white, #FFF);
+margin-right: 100px;
+margin-top: 30px;
+padding: 0 68px;
+}
+.box-model{
+display: flex;
+gap: 36px;
+width:170px;
+height: 250px;
+flex-shrink: 0;
+background: #191B1C;
+padding: 55px 20px;
+}
+.box-model img{
+width: 158px;
+
+}
+
+
+.box-2-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-kards-1 {
+  background: url(../images/smoking.jpeg);
+  width: 715px;
+  background-color: #000;
+background-size: cover;
+background-repeat: no-repeat;
+  
+}
+
+
+.box-kards-2 {
+  display: flex;
+  flex-wrap: wrap;
+  background: #000;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 805px;
+
+}
+.box-kards-2 h1{
+margin-left: 30%;
+color: var(--white, #FFF);
+  
+}
+.box-kards-2 h3{
+border: none;
+  margin-left: 30%;
+  color: var(--white, #FFF);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+display: inline-flex;
+padding: 12px 28px;
+align-items: center;
+gap: 10px;
+border: 1px solid var(--white, #FFF);
+}
+
+.box-kards-2 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-kards-2 p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: var(--white, #FFF);
+}
+
+.box-kards-2 h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.box-kards-2 h3:hover {
+  color: blue;
+}
+
+
+
+
+/* --- box end --- */
